@@ -4,8 +4,22 @@ export const Dashboard = () => {
     );
 }
 
-export const Teste = () => {
+export const Button = () => {
     return(
-        <h1>Teste</h1>
+        <div>
+            <button>teste de botão</button> 
+            {/* botão so funcionou dessa maneira para que possa ser usado em outros componentes */}
+        </div>
     );
 }
+
+
+export const Teste = () => {
+    return(
+        <div>
+            <h1>Teste</h1>
+            <Button />
+        </div>
+    );
+}
+
