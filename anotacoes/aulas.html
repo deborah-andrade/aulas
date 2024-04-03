@@ -28,5 +28,21 @@
  Nesta aula aprendemos a usar duas formas de navegar pelas paginas, uma usando link e outra fzd uma função em que usa o
  import useNavigate, usa-se este pois na atualização 6 mudou
  Ambos uteis mas servem para situações diferentes
+
+
+ --AULA 06
+ Nesta aula, aprendemsos a fzer um formulario e a usar onChange={ e => setEmail(e.target.value)} que serve para o email do
+ usuario no state do console.
+ Toda vez que o setState é executado (em que é alterado o useState), o react vai rexecutar de novo, ou seja, ele executa duas vezes
+ e com isso se tiver algo q apareça na tela em forma de pergunta, ira aparecer duas vezes, e com isso usamos o useEffect, na aula 07
+
+ --AULA 07
+ O effect vai ter um relacionamento direto com as suas dependencias, de primeira iremos informar seus efeitos e como segundo parametro
+ iremos passar um arrey[], que ira servir como dependencia caso os efeitos n tenham uma dependencia direta
+ O effect é util pois ele irá ser executado uma vez, em vez de duas ou ate mais por conta do proprio react.
+ É muito usado quando precisa realizar algum tipo de operação com o backend em uma chamada de api tendo informações dde usuario
+ em vez de rodar varias vezes podemos usa-lo para rodar apenas uma vez e pode usar quantas vezes quiser mas de forma moderada
+ Nessa aula fizemos exemplos de useEffect, um com uma pergunta na tela e outros 2 para os campos inputs, em que salvam no console cada passo
+ dado, cada letra ou numero escrito.
 -->
  

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Dashboard = () => {
     return(
         <div>
-            <p>Dashboard</p>
+            <h1>Dashboard</h1>
             <Link to = "/login">Login</Link>     
             {/* o link funciona como o 'a' do html, em que ira fazer as "rotas" (navegará) das paginas */}
 
